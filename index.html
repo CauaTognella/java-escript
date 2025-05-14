@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .texto{
+        background-color: black;
+        color:aqua
+    }
+</style>
+<body>
+
+    <h1>aula de JS</h1>
+
+   <p class="texto" id="textopersonalizado">aqui ta o texto personalizado</p>
+    <script>
+
+      console.log ("aqui eu tenho um texto top")
+      //operadores aritimeticos
+      // + SOMA
+      // - SUBITRAIR
+      // * MULTIPLICAR
+      // / DIVIDIR 
+     //O JAVA SCRIPT NÃOPOSSUI TIPAGEM, 
+
+         console.log(1*2+4)
+         numero = 1
+         texto = "texto"
+         numeroquebrado = 6.4
+         verdadeirouFalso = false
+         console.log(numero, texto, verdadeirouFalso, numeroquebrado)
+         console.log(4-56+57*2/2)
+         console.log(1 + 'String')
+         console.log(1 + parseInt("2"))
+         //OPERADORES LOGICOS 
+         // = IGUAL
+         // != diferente 
+         // > MAIOR 
+         // < MENOR 
+         //>= MAIOR OU IGUAL 
+         //<=
+         if(i = 1){
+            console.log("estou dentro do if")
+
+         }
+         else if (2 == 3){
+            console.log("dentro do else if")
+                            
+            }
+            for (i = 0; i < 5; i++){
+                 console.log("valor de i: " + i)
+            }
+            contador = 1
+            while (contador < 10){
+                contador ++
+                if(contador == 7){
+                    continue
+                }
+                if (conatdor = 5){
+                    break
+                }
+                
+                
+                console.log("valor do contador: "+ contador)
+
+                
+
+            }
+            alert("deseja continuar")
+
+            function functiontop(){
+                alert("minha função funcionou !!!!")
+            }
+           function adicionaratexto (){
+             alert ("deseja adicionar texto?")
+//console.log(document.getElementById('textopersonalizado').innerHTML
+//Dom -->DOCUMENT OBJECT MODEL
+             textolocal =document.getElementById('textopersonalizado').innerHTML
+              console.log(texolocal)
+
+              document.getElementById('textopersonalizado').innerHTML ='UM TEXTO DO BALACO BACO'
+
+           }    
+            //FUNÇÃO TOP()
+        </script>
+</body>
+</html>
